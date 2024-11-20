@@ -1,2 +1,17 @@
-# chrome-ex-utm_buster_button
-remove query paramater from your URL
+# これは何
+
+SNSにURLを共有するとき、長くて邪魔なURLのクエリパラメーターを除去するボタンです。
+
+手動で消すほか、`utm_source`がURLに含まれている時、自動で消すか聞いてきます。
+
+## インストール方法
+
+このフォルダを任意の場所に配置して、Chromeから読み込ませてください。
+
+## 使い方
+
+インストールすると、ツールバーに以下のようなアイコンが出現します。
+
+![Misskey Icon](icon_48.png)
+
+これを押すと、URLについてる余計なクエリパラメーターを消したURLに遷移します。
